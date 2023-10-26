@@ -6,6 +6,7 @@ class LandingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: Column(
         children: [
           Padding(
@@ -14,7 +15,7 @@ class LandingPage extends StatelessWidget {
               child: Container(
                   width: double.infinity,
                   color: const Color.fromARGB(113, 244, 67, 54),
-                  child: const Padding(
+                  child: Padding(
                     padding: EdgeInsets.all(8),
                     child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -30,10 +31,14 @@ class LandingPage extends StatelessWidget {
                           SizedBox(
                             height: 24,
                           ),
-                          Text(
-                            "The  Product Team you need 💪🏻. What Will you Build now ",
-                            style:
-                                TextStyle(color: Colors.black87, fontSize: 20),
+                          Container(
+                            width: double.infinity,
+                            color: const Color.fromARGB(29, 76, 175, 79),
+                            child: Text(
+                              "The  Product Team you need 💪🏻. What Will you Build now ",
+                              style: TextStyle(
+                                  color: Colors.black87, fontSize: 20),
+                            ),
                           ),
                           SizedBox(
                             height: 16,
@@ -51,7 +56,7 @@ class LandingPage extends StatelessWidget {
                   child: Container(
                       width: double.infinity,
                       color: const Color.fromARGB(113, 244, 67, 54),
-                      child: const Padding(
+                      child: Padding(
                         padding: const EdgeInsets.all(8),
                         child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -59,10 +64,14 @@ class LandingPage extends StatelessWidget {
                               SizedBox(
                                 height: 40,
                               ),
-                              Text(
-                                "The Intern you need ⚡ 💫",
-                                style: TextStyle(
-                                    color: Colors.black87, fontSize: 20),
+                              Container(
+                                color: const Color.fromARGB(29, 76, 175, 79),
+                                width: double.infinity,
+                                child: Text(
+                                  "The Intern you need ⚡ 💫",
+                                  style: TextStyle(
+                                      color: Colors.black87, fontSize: 20),
+                                ),
                               ),
                               SizedBox(
                                 height: 32,
