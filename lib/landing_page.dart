@@ -16,31 +16,31 @@ class LandingPage extends StatelessWidget {
                   width: double.infinity,
                   color: const Color.fromARGB(113, 244, 67, 54),
                   child: Padding(
-                    padding: EdgeInsets.all(8),
+                    padding: const EdgeInsets.all(8),
                     child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          SizedBox(
+                          const SizedBox(
                             height: 8,
                           ),
-                          Text(
+                          const Text(
                             "Aimed Labs!",
                             style: TextStyle(
                                 fontWeight: FontWeight.w800, fontSize: 40),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 24,
                           ),
                           Container(
                             width: double.infinity,
                             color: const Color.fromARGB(29, 76, 175, 79),
-                            child: Text(
+                            child: const Text(
                               "The  Product Team you need 💪🏻. What Will you Build now ",
                               style: TextStyle(
                                   color: Colors.black87, fontSize: 20),
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 16,
                           ),
                         ]),
@@ -61,19 +61,19 @@ class LandingPage extends StatelessWidget {
                         child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              SizedBox(
+                              const SizedBox(
                                 height: 40,
                               ),
                               Container(
                                 color: const Color.fromARGB(29, 76, 175, 79),
                                 width: double.infinity,
-                                child: Text(
+                                child: const Text(
                                   "The Intern you need ⚡ 💫",
                                   style: TextStyle(
                                       color: Colors.black87, fontSize: 20),
                                 ),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 32,
                               ),
                             ]),
@@ -82,7 +82,7 @@ class LandingPage extends StatelessWidget {
               ),
               Container(
                 color: Colors.grey,
-                child: Text(
+                child: const Text(
                   " Harshvardhan ",
                   style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
                 ),
