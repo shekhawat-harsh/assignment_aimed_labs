@@ -9,13 +9,13 @@ class LandingPage extends StatelessWidget {
       body: Column(
         children: [
           Padding(
-            padding: EdgeInsets.all(16),
+            padding: const EdgeInsets.all(16),
             child: Card(
               child: Container(
                   width: double.infinity,
                   color: const Color.fromARGB(113, 244, 67, 54),
-                  child: Padding(
-                    padding: const EdgeInsets.all(8),
+                  child: const Padding(
+                    padding: EdgeInsets.all(8),
                     child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -51,7 +51,7 @@ class LandingPage extends StatelessWidget {
                   child: Container(
                       width: double.infinity,
                       color: const Color.fromARGB(113, 244, 67, 54),
-                      child: Padding(
+                      child: const Padding(
                         padding: const EdgeInsets.all(8),
                         child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
